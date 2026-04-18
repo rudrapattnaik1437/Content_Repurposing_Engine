@@ -49,7 +49,7 @@ https://github.com/user-attachments/assets/af98b011-4231-4923-8cd8-aa6cef5670c1
 
 
 ## 🌐 Live App
-(Add your deployed Streamlit link here)
+https://contentrepurposingengine-app.streamlit.app/
 
 
 
