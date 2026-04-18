@@ -44,7 +44,7 @@ This app automates the process by:
 
 
 ## 🎥 Demo
-(Add your demo video link here)
+https://github.com/user-attachments/assets/af98b011-4231-4923-8cd8-aa6cef5670c1
 
 
 
