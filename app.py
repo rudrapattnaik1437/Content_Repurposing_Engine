@@ -30,24 +30,7 @@ def cut_fixed_clips(video_path):
 
 
 def add_caption(video_path, text):
-    video = VideoFileClip(video_path)
-
-    caption = TextClip(
-        text,
-        fontsize=40,
-        color='white',
-        method='caption',
-        size=(video.w * 0.8, None)
-    )
-
-    caption = caption.set_position(('center', 'bottom')).set_duration(video.duration)
-
-    final = CompositeVideoClip([video, caption])
-
-    output = "captioned_" + video_path
-    final.write_videofile(output, codec="libx264", audio_codec="aac")
-
-    return output
+    return video_path
 
 
 # -------- MAIN -------- #
